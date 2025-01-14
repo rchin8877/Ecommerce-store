@@ -1,0 +1,11 @@
+React HTML CSS JavaScript Node.js MongoDB
+
+Setting up the server 
+    initialise a node.js server using express.js framework 
+    use script "dev": "nodemon backend/server.js" instead of just node to update whenever changes are made 
+        add 'Path' to environ variables in advanced settings 'npm config get prefix' (which gave me C:\Users\user\AppData\Roaming\npm)
+        RESTART 
+
+Setting up MongoDB
+    Create a new cluster on MongoDB
+    Add the connection string to a .env file (used to define environ variablesl store sensitive configuration data such as API keys)
